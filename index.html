@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Custom Card</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<style>
+    body {
+        font-family: 'Trebuchet MS';
+        color: #696969;
+    }
+</style>
+
+<body>
+    <div class="flex items-center h-screen bg-white dark:bg-gray-80 justify-center">
+        <div class="rounded-2xl overflow-hidden max-w-xs bg-gray-50">
+            <div class="relative">
+                <img src="photos/cover.JPG"/>
+                <a href="https://www.facebook.com/bea.namuag.1/" target="_blank">
+                    <button class="absolute top-0 right-0 bg-gray-400 border-2 text-white h-7 w-7 rounded-full bg-opacity-70 hover:bg-gray-400 m-4">
+                        <span class="material-symbols-outlined justify-center">
+                            add
+                        </span>
+                    </button>
+                </a>
+            </div>
+            <div class="pl-5">
+                <div class="flex relative justify-left items-end -mt-14">
+                    <img src="photos/pfp.jpg" class="rounded-full float-left border-2 w-24 h-24 mt-5">
+                    <div>
+                    <p class="text-black font-light pl-6 leading-6">
+                        Bea Lyza Namuag</p>
+                        <div class="flex pl-5 mb-2 items-center">
+                            <span class="material-symbols-outlined">
+                                location_on
+                                </span>
+                            <p class="text-sm pl-1 text-xs">
+                                Matina, Davao City</p>
+                        </div>
+                    </div>		
+                </div>
+                <div class="text-left pb-6 pt-3">
+                    <p class="mt-2 font-light">
+                        Aiming for the moon, so if I'll missed, then I shall fall among the stars. Now ain't that kind of poetic?</p>
+                    <a href="https://twitter.com/beanamuag" class="font-medium inline-flex items-center text-blue-500 py-5 hover:underline">
+                        TWITTER.COM/BEANAMUAG
+                    </a>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="flex justify-center text-left text-sm ">
+                <div class="grid grid-cols-3 gap-10 mt-3 py-1">
+                    <div>
+                        <p>Posts</p>
+                        <div class="flex justify-left items-center">
+                            <span class="material-symbols-outlined">
+                                edit_square
+                                </span>
+                            <p class="pl-1 text-lg">1056</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Followers</p>
+                        <div class="flex justify-left items-center">
+                            <span class="material-symbols-outlined">
+                                person_add
+                                </span>
+                            <p class = "pl-1 text-lg">1472</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Following</p>
+                        <div class="flex justify-left items-center">
+                            <span class="material-symbols-outlined">
+                                person_add
+                                </span>
+                            <p class="pl-1 text-lg">384</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
